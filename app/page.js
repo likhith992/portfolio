@@ -43,7 +43,7 @@ export default function Home() {
         {/* About */}
         <section style={{ marginBottom: '40px' }}>
           <p style={{ color: '#444', fontSize: '14px' }}>
-            I am currently learning Django, machine learning, and system design.
+            I am currently learning machine learning, and system design.
             I enjoy building simple and efficient applications that solve real-world problems.
           </p>
         </section>
