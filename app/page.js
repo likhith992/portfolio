@@ -60,15 +60,7 @@ export default function Home() {
               Time-series prediction model using LSTM.
             </p>
           </div>
-
-          <div style={{ marginBottom: '15px' }}>
-            <a href="#" style={{ fontSize: '14px' }}>
-              Django Web Application
-            </a>
-            <p style={{ color: '#666', fontSize: '13px' }}>
-              Backend web app with APIs and database integration.
-            </p>
-          </div>
+          
 
         </section>
 
