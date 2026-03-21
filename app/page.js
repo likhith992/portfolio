@@ -1,66 +1,93 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main style={{
+      backgroundColor: '#f5f5f0',
+      minHeight: '100vh',
+      padding: '100px 20px',
+      fontFamily: 'Inter, system-ui, sans-serif',
+      color: '#111'
+    }}>
+
+      <div style={{
+        maxWidth: '640px',
+        marginLeft: 'auto',
+        marginRight: 'auto'
+      }}>
+
+        {/* Name */}
+        <h1 style={{
+          fontSize: '32px',
+          fontWeight: '500',
+          marginBottom: '6px'
+        }}>
+          Likhith M Shetty
+        </h1>
+
+        <p style={{
+          color: '#666',
+          marginBottom: '30px',
+          fontSize: '14px'
+        }}>
+          Developer focused on backend systems and AI-based solutions.
+        </p>
+
+        {/* Links (like reference site) */}
+        <div style={{
+          marginBottom: '40px',
+          fontSize: '14px'
+        }}>
+          <a href="https://github.com/likhith992" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/likhith-shetty-640b67341" target="_blank">LinkedIn</a>
+          <a href="/resume.pdf" target="_blank">Resume</a>
+        </div>
+
+        {/* About */}
+        <section style={{ marginBottom: '40px' }}>
+          <p style={{ color: '#444', fontSize: '14px' }}>
+            I am currently learning Django, machine learning, and system design.
+            I enjoy building simple and efficient applications that solve real-world problems.
           </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+        </section>
+
+        {/* Projects */}
+        <section style={{ marginBottom: '40px' }}>
+          <h2 style={{ fontSize: '14px', marginBottom: '10px' }}>Projects</h2>
+
+          <div style={{ marginBottom: '15px' }}>
+            <a href="#" style={{ fontSize: '14px' }}>
+              FluidFlow LSTM Model
+            </a>
+            <p style={{ color: '#666', fontSize: '13px' }}>
+              Time-series prediction model using LSTM.
+            </p>
+          </div>
+
+          <div style={{ marginBottom: '15px' }}>
+            <a href="#" style={{ fontSize: '14px' }}>
+              Django Web Application
+            </a>
+            <p style={{ color: '#666', fontSize: '13px' }}>
+              Backend web app with APIs and database integration.
+            </p>
+          </div>
+
+        </section>
+
+        {/* Experience */}
+        <section style={{ marginBottom: '40px' }}>
+          <h2 style={{ fontSize: '14px', marginBottom: '10px' }}>Experience</h2>
+
+          <div>
+            <p style={{ fontSize: '14px' }}>
+              Self Projects — Developer
+            </p>
+            <p style={{ color: '#666', fontSize: '13px' }}>
+              2025 - Present
+            </p>
+          </div>
+        </section>
+
+      </div>
+    </main>
   );
 }
