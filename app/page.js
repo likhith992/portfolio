@@ -32,14 +32,13 @@ export default function Home() {
         </p>
 
         {/* Links (like reference site) */}
-        <div style={{
-          marginBottom: '40px',
-          fontSize: '14px'
-        }}>
-          <a href="https://github.com/likhith992" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/likhith-shetty-640b67341" target="_blank">LinkedIn</a>
-          <a href="/resume.pdf" target="_blank">Resume</a>
-        </div>
+          <div style={{ marginBottom: '40px', fontSize: '14px' }}>
+          <a href="https://github.com/likhith992" target="_blank" style={{ marginRight: '12px' }}>GitHub</a>
+
+         <a href="https://www.linkedin.com/in/likhith-shetty-640b67341https://www.linkedin.com/in/likhith-shetty-640b67341" target="_blank" style={{ marginRight: '12px' }}>LinkedIn</a>
+
+         
+       </div>
 
         {/* About */}
         <section style={{ marginBottom: '40px' }}>
