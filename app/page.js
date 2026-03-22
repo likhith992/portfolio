@@ -39,29 +39,13 @@ export default function Home() {
 
          
        </div>
-
+q
         {/* About */}
         <section style={{ marginBottom: '40px' }}>
           <p style={{ color: '#444', fontSize: '14px' }}>
             I am currently learning about machine learning, and system design.
             I enjoy building simple and efficient applications that solve real-world problems.
           </p>
-        </section>
-
-        {/* Projects */}
-        <section style={{ marginBottom: '40px' }}>
-          <h2 style={{ fontSize: '14px', marginBottom: '10px' }}>Projects</h2>
-
-          <div style={{ marginBottom: '15px' }}>
-            <a href="#" style={{ fontSize: '14px' }}>
-              FluidFlow LSTM Model
-            </a>
-            <p style={{ color: '#666', fontSize: '13px' }}>
-              Time-series prediction model using LSTM.
-            </p>
-          </div>
-          
-
         </section>
 
         {/* Experience */}
