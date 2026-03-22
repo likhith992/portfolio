@@ -39,7 +39,7 @@ export default function Home() {
 
          
        </div>
-q
+
         {/* About */}
         <section style={{ marginBottom: '40px' }}>
           <p style={{ color: '#444', fontSize: '14px' }}>
